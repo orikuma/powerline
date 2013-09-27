@@ -23,21 +23,21 @@
 
 (require 'cl-lib)
 
-(defface powerline-active1 '((t (:background "grey22" :inherit mode-line)))
+(defface powerline-active1 '((t (:foreground "white" :background "grey22" :inherit mode-line)))
   "Powerline face 1."
   :group 'powerline)
 
-(defface powerline-active2 '((t (:background "grey40" :inherit mode-line)))
+(defface powerline-active2 '((t (:foreground "black" :background "grey45" :inherit mode-line)))
   "Powerline face 2."
   :group 'powerline)
 
 (defface powerline-inactive1
-  '((t (:background "grey11" :inherit mode-line-inactive)))
+  '((t (:foreground "white" :background "grey11" :inherit mode-line-inactive)))
   "Powerline face 1."
   :group 'powerline)
 
 (defface powerline-inactive2
-  '((t (:background "grey20" :inherit mode-line-inactive)))
+  '((t (:foreground "white" :background "grey20" :inherit mode-line-inactive)))
   "Powerline face 2."
   :group 'powerline)
 
